@@ -1,5 +1,9 @@
 Changelog for (X)HTML Beautify (MODX Revolution)
 
+2.0.0
+=====
+- Updated htmLawed to version 1.2.4.1
+
 2.0.0-alpha
 ===========
 - Added htmLawed for experimentation

@@ -19,8 +19,8 @@ $plugins = array();
 $plugins[1]= $modx->newObject('modplugin');
 $plugins[1]->fromArray(array(
     'id' => 1,
-    'name' => 'XHTML Beautify',
-    'description' => 'XHTML Beautify',
+    'name' => 'HTML Beautify',
+    'description' => 'HTML Beautify',
     'plugincode' => getPluginContent($sources['source_core'].'/elements/plugins/xhtmlbeautify.plugin.php'),
 ),'',true,true);
 

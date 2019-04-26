@@ -11,13 +11,13 @@
  * Software Foundation; either version 2 of the License, or (at your option) any
  * later version.
  *
- * XHTML Beautify is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+ * XHTML Beautify is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
  * details.
  *
  * You should have received a copy of the GNU General Public License along with
- * XHTML Beautify; if not, write to the Free Software Foundation, Inc., 59 
+ * XHTML Beautify; if not, write to the Free Software Foundation, Inc., 59
  * Temple Place, Suite 330, Boston, MA 02111-1307 USA
  *
  * @package     xhtmlbeautify
@@ -26,7 +26,7 @@
  * @language    en
  */
 
-$_lang['XHTMLBeautify'] = 'XHTML Beautify';
+$_lang['XHTMLBeautify'] = 'HTML Beautify';
 
 $_lang['setting_xhtmlbeautify.enabled'] = 'Enabled';
 $_lang['setting_xhtmlbeautify.enabled_desc'] = 'Enable/Disable the plugin from
@@ -40,13 +40,13 @@ to be set.<br /><br />
 1 = make absolute";
 
 $_lang['setting_xhtmlbeautify.and_mark'] = 'Mark & Characters';
-$_lang['setting_xhtmlbeautify.and_mark_desc'] = "See 
+$_lang['setting_xhtmlbeautify.and_mark_desc'] = "See
 <a href=\"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.2\"
  target=\"_blank\">section 3.2</a>.";
 
 $_lang['setting_xhtmlbeautify.balance'] = 'Balance Tags';
 $_lang['setting_xhtmlbeautify.balance_desc'] = "Balance tags for well-formedness
- and proper nesting. See 
+ and proper nesting. See
  <a href=\"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.3.3\"
   target=\"_blank\"> section 3.3.3</a><br /><br />
 0 = disabled<br />
@@ -54,14 +54,14 @@ $_lang['setting_xhtmlbeautify.balance_desc'] = "Balance tags for well-formedness
 
 $_lang['setting_xhtmlbeautify.balance'] = 'Balance Tags';
 $_lang['setting_xhtmlbeautify.balance_desc'] = "Balance tags for well-formedness
- and proper nesting. See 
- <a href=\"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.3.3\" 
+ and proper nesting. See
+ <a href=\"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.3.3\"
  target=\"_blank\"> section 3.3.3</a><br /><br />
 0 = disabled<br />
 1 = enabled";
 
 $_lang['setting_xhtmlbeautify.base_url'] = 'Base URL Value';
-$_lang['setting_xhtmlbeautify.base_url_desc'] = "Base URL value that needs to be set if 
+$_lang['setting_xhtmlbeautify.base_url_desc'] = "Base URL value that needs to be set if
 html_abs_url is not 0";
 
 $_lang['setting_xhtmlbeautify.cdata'] = 'CDATA Handling';
@@ -88,8 +88,8 @@ $_lang['setting_xhtmlbeautify.comment_desc'] = "Handling of HTML comments<br /><
 ";
 
 $_lang['setting_xhtmlbeautify.css_expression'] = 'CSS Expressions';
-$_lang['setting_xhtmlbeautify.css_expression_desc'] = " Allow dynamic CSS 
-expression by not removing the expression from CSS property values in style 
+$_lang['setting_xhtmlbeautify.css_expression_desc'] = " Allow dynamic CSS
+expression by not removing the expression from CSS property values in style
 attributes<br /><br />
 0 = remove<br />
 1 = allow
@@ -117,8 +117,8 @@ empty = disabled (default)<br />
 ";
 
 $_lang['setting_xhtmlbeautify.hexdec_entity'] = 'Hexadecimal Numeric Entities ';
-$_lang['setting_xhtmlbeautify.hexdec_entity_desc'] = " Allow hexadecimal numeric 
-entities and do not convert to the more widely accepted decimal ones, or convert 
+$_lang['setting_xhtmlbeautify.hexdec_entity_desc'] = " Allow hexadecimal numeric
+entities and do not convert to the more widely accepted decimal ones, or convert
 decimal to hexadecimal ones<br /><br />
 0 = no<br />
 1 = yes<br />
@@ -126,7 +126,7 @@ decimal to hexadecimal ones<br /><br />
 ";
 
 $_lang['setting_xhtmlbeautify.keep_bad'] = 'Keep Bad Tags';
-$_lang['setting_xhtmlbeautify.keep_bad_desc'] = "Neutralize bad tags by 
+$_lang['setting_xhtmlbeautify.keep_bad_desc'] = "Neutralize bad tags by
 converting < and > to entities, or remove them<br /><br />
 0 = remove<br />
 1 = neutralize both tags and element content<br />
@@ -137,16 +137,16 @@ converting < and > to entities, or remove them<br /><br />
 
 
 $_lang['setting_xhtmlbeautify.lc_std_val'] = 'Lowercase Attributes';
-$_lang['setting_xhtmlbeautify.lc_std_val_desc'] = "For XHTML compliance, predefined, 
-standard attribute values, like get for the method attribute of form, must be 
+$_lang['setting_xhtmlbeautify.lc_std_val_desc'] = "For XHTML compliance, predefined,
+standard attribute values, like get for the method attribute of form, must be
 lowercased<br /><br />
 0 = no<br />
 1 = yes (default)
 ";
 
 $_lang['setting_xhtmlbeautify.make_tag_strict'] = 'Strict Tags';
-$_lang['setting_xhtmlbeautify.make_tag_strict_desc'] = "Transform/remove these 
-non-strict XHTML elements, even if they are allowed by the admin: applet 
+$_lang['setting_xhtmlbeautify.make_tag_strict_desc'] = "Transform/remove these
+non-strict XHTML elements, even if they are allowed by the admin: applet
 center dir embed font isindex menu s strike u; <br /><br />
 0 = no<br />
 1 =  yes, but leave applet, embed and isindex elements that currently can't be transformed (default)<br />
@@ -154,14 +154,14 @@ center dir embed font isindex menu s strike u; <br /><br />
 ";
 
 $_lang['setting_xhtmlbeautify.no_deprecated_attr'] = 'Universal HTML';
-$_lang['setting_xhtmlbeautify.no_deprecated_attr_desc'] = "Allow non-universal named 
+$_lang['setting_xhtmlbeautify.no_deprecated_attr_desc'] = "Allow non-universal named
 HTML entities, or convert to numeric ones<br /><br />
 0 = convert<br />
 1 = allow (default)
 ";
 
 $_lang['setting_xhtmlbeautify.named_entity'] = 'Deprecated Attributes';
-$_lang['setting_xhtmlbeautify.named_entity_desc'] = "Allow deprecated 
+$_lang['setting_xhtmlbeautify.named_entity_desc'] = "Allow deprecated
 attributes or transform them<br /><br />
 0 = allow<br />
 1 = transform, but name attributes for a and map are retaine (default)<br />
@@ -169,7 +169,7 @@ attributes or transform them<br /><br />
 ";
 
 $_lang['setting_xhtmlbeautify.safe'] = 'Safe';
-$_lang['setting_xhtmlbeautify.safe_desc'] = "Magic parameter to make input 
+$_lang['setting_xhtmlbeautify.safe_desc'] = "Magic parameter to make input
 the most secure against XSS<br /><br />
 0 = no (default)<br />
 1 = will auto-adjust other relevant parameters
@@ -180,7 +180,7 @@ $_lang['setting_xhtmlbeautify.schemes_desc'] = "Array of attribute-specific, com
 ";
 
 $_lang['setting_xhtmlbeautify.style_pass'] = 'Style Pass';
-$_lang['setting_xhtmlbeautify.style_pass_desc'] = "Do not look at style 
+$_lang['setting_xhtmlbeautify.style_pass_desc'] = "Do not look at style
 attribute values, letting them through without any alteration<br /><br />
 0 = no (default)<br />
 1 = let through any style value
@@ -202,7 +202,7 @@ word = remove invalid ones and replace duplicate ones with new and unique ones b
 ";
 
 $_lang['setting_xhtmlbeautify.valid_xhtml'] = 'Valid XHTML';
-$_lang['setting_xhtmlbeautify.valid_xhtml_desc'] = "Magic parameter to make 
+$_lang['setting_xhtmlbeautify.valid_xhtml_desc'] = "Magic parameter to make
 input the most valid XHTML without needing to specify other relevant parameters<br /><br />
 0 = no (default)<br />
 1 = will auto-adjust other relevant parameters (indicated by ~ in this list)
