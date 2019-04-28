@@ -1,7 +1,7 @@
 HTML Beautify
 =============
 
-Version: 2.0.1 (2019-04-26)
+Version: 2.0.2 (2019-04-28)
 Authors: Dan Gibbs <contact@dangibbs.co.uk>
 
 Clean up (X)HTML source code output.

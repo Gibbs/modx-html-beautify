@@ -29,12 +29,10 @@
 $_lang['XHTMLBeautify'] = 'HTML Beautify';
 
 $_lang['setting_xhtmlbeautify.enabled'] = 'Enabled';
-$_lang['setting_xhtmlbeautify.enabled_desc'] = 'Enable/Disable the plugin from
-taking effect.';
+$_lang['setting_xhtmlbeautify.enabled_desc'] = 'Enable/Disable the plugin from taking effect.';
 
 $_lang['setting_xhtmlbeautify.abs_url'] = 'Make URLs Absolute or Relative';
-$_lang['setting_xhtmlbeautify.abs_url_desc'] = "Setting html_base_url needs
-to be set.<br /><br />
+$_lang['setting_xhtmlbeautify.abs_url_desc'] = "Setting html_base_url needs to be set.<br /><br />
 -1 = make relative<br />
 0 = no action (default)<br />
 1 = make absolute";
@@ -49,14 +47,6 @@ $_lang['setting_xhtmlbeautify.balance_desc'] = "Balance tags for well-formedness
  and proper nesting. See
  <a href=\"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.3.3\"
   target=\"_blank\"> section 3.3.3</a><br /><br />
-0 = disabled<br />
-1 = enabled";
-
-$_lang['setting_xhtmlbeautify.balance'] = 'Balance Tags';
-$_lang['setting_xhtmlbeautify.balance_desc'] = "Balance tags for well-formedness
- and proper nesting. See
- <a href=\"http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/htmLawed_README.htm#s3.3.3\"
- target=\"_blank\"> section 3.3.3</a><br /><br />
 0 = disabled<br />
 1 = enabled";
 
@@ -116,7 +106,7 @@ empty = disabled (default)<br />
   applet, embed, iframe, object, script not allowed -
 ";
 
-$_lang['setting_xhtmlbeautify.hexdec_entity'] = 'Hexadecimal Numeric Entities ';
+$_lang['setting_xhtmlbeautify.hexdec_entity'] = 'Hexadecimal Numeric Entities';
 $_lang['setting_xhtmlbeautify.hexdec_entity_desc'] = " Allow hexadecimal numeric
 entities and do not convert to the more widely accepted decimal ones, or convert
 decimal to hexadecimal ones<br /><br />

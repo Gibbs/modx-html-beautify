@@ -13,10 +13,10 @@ $snippets = array();
 
 $snippets[1]= $modx->newObject('modSnippet');
 $snippets[1]->fromArray(array(
-	'id' => 1,
-	'name' => 'HTMLBeautify',
+	'id'          => 1,
+	'name'        => 'XHTMLBeautify',
 	'description' => 'HTML Beautify Snippet',
-	'snippet' => getSnippetContent($sources['source_core'].'/elements/snippets/xhtmlbeautify.snippet.php'),
+	'snippet'     => getSnippetContent($sources['source_core'].'/elements/snippets/xhtmlbeautify.snippet.php'),
 ),'',true,true);
 //$properties = include $sources['data'].'/properties/properties.mysnippet1.php';
 //$snippets[1]->setProperties($properties);

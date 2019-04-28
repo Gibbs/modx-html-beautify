@@ -1,6 +1,11 @@
 Changelog for (X)HTML Beautify (MODX Revolution)
 
-2.0.0
+2.0.2
+=====
+- Remove markup from en lexicon
+- Fix build process not exporting plugin events
+
+2.0.1
 =====
 - Updated htmLawed to version 1.2.4.1
 

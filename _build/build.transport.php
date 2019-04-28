@@ -11,13 +11,13 @@
  * Software Foundation; either version 2 of the License, or (at your option) any
  * later version.
  *
- * HTML Beautify is distributed in the hope that it will be useful, but 
- * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+ * HTML Beautify is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
  * details.
  *
  * You should have received a copy of the GNU General Public License along with
- * HTML Beautify; if not, write to the Free Software Foundation, Inc., 59 
+ * HTML Beautify; if not, write to the Free Software Foundation, Inc., 59
  * Temple Place, Suite 330, Boston, MA 02111-1307 USA
  *
  * @package    xhtmlbeautify
@@ -36,10 +36,10 @@ ini_set('display_errors', 'on');
 error_reporting(E_ALL);
 
 /* Set package info be sure to set all of these */
-define('PKG_NAME','XHTML Beautify');
+define('PKG_NAME','HTML Beautify');
 define('PKG_NAME_LOWER','xhtmlbeautify');
-define('PKG_VERSION','2.0');
-define('PKG_RELEASE','alpha');
+define('PKG_VERSION','2.0.1');
+define('PKG_RELEASE', 'pl');
 define('PKG_CATEGORY','XHTML Beautify');
 
 /* Set package options - you can turn these on one-by-one
@@ -78,7 +78,7 @@ $hasSubPackages = FALSE; /* add in other component packages (transport.zip files
  * Locally for Packages" in Package Manager. Be aware that the
  * copied packages may be older versions than ones already
  * installed. This is necessary because Package Manager's
- * autoinstall of the packages is unreliable at this point. 
+ * autoinstall of the packages is unreliable at this point.
  */
 
 /******************************************
@@ -154,7 +154,7 @@ if ($hasPropertySets) { /* add property sets */
 }
 if ($hasChunks) { /* add chunks  */
     $modx->log(modX::LOG_LEVEL_INFO,'Adding in chunks.');
-    /* note: Chunks' default properties are set in transport.chunks.php */    
+    /* note: Chunks' default properties are set in transport.chunks.php */
     $chunks = include $sources['data'].'transport.chunks.php';
     if (is_array($chunks)) {
         $category->addMany($chunks, 'Chunks');
@@ -286,7 +286,7 @@ if ($hasCore) {
         ));
 }
 
-/* This section transfers every file in the local 
+/* This section transfers every file in the local
  mycomponents/mycomponent/core directory to the
  target site's core/mycomponent directory on install.
  If the core has been renamed or moved, they will still
@@ -315,7 +315,7 @@ if ($hasSubPackages) {
 }
 
 /* Put the category vehicle (with all the stuff we added to the
- * category) into the package 
+ * category) into the package
  */
 $builder->putVehicle($vehicle);
 
@@ -399,7 +399,7 @@ if ($hasSettings) {
 }
 
 /* Next-to-last step - pack in the license file, readme.txt, changelog,
- * and setup options 
+ * and setup options
  */
 $builder->setPackageAttributes(array(
     'license' => file_get_contents($sources['docs'] . 'license.txt'),
